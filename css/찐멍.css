@@ -1,0 +1,688 @@
+*{margin: 0 ; padding: 0; }
+li{list-style: none;}
+a{color: #000000 ; text-decoration: none;}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* header시작 */
+header{
+    width: 100%;
+    height: 125px;
+    background-color: #ffffff;
+}
+
+nav{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Pretendard-Regular';
+}
+
+.nav-gnb{
+    display: flex;
+    align-items: center;
+    padding: 35px ;
+}
+
+.nav-logo{
+    padding-left: 80px;
+}
+
+.nav-logo img{
+    width: 160px;
+}
+.nav-gnb-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-gnb-menu li{
+    margin-left: 100px;
+}
+
+.nav-gnb-menu li a{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.nav-gnb-menu li :hover{
+    color: #36723f;
+}
+/* header끝 */
+
+
+/* banner시작 */
+.banner{
+    width: 100%;
+    height: 580px;
+    /* background-color: rgb(94, 94, 94); */
+    background-image: url("../img/배경\ 1920.jpg");
+    background-size: cover;
+}
+
+.wrap1{
+margin: 0 auto;
+width: 1200px;
+height: 580px;
+position: relative;}
+
+.front img{max-width: 100%; width: 1200px; height: 589px; object-fit: cover;
+object-position: bottom;}
+.text_area{
+    position: absolute;
+    top: 30%;
+    left: 6%;}
+
+    .text_area li:nth-child(1){
+        font-family: 'Pretendard-Regular';
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 40px;
+        margin-bottom: 7px;
+    }
+
+    .text_area li:nth-child(2){
+        font-family: 'Pretendard-Regular';
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .text_area li:nth-child(3){
+        font-family: 'Pretendard-Regular';
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .text_area li:nth-child(4){
+        font-family: 'Pretendard-Regular';
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 300;
+        margin: 5px;
+    }
+    /* banner끝 */
+
+    /* con시작 */
+    .con{
+        width: 100%;
+        height: 650px;
+        background-color:#faf3e7;
+        position: relative;
+    }
+    
+    .con-wrap{
+        position: relative;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        font-family: 'Pretendard-Regular';
+    }
+    
+    .text{
+        position: absolute;
+        top:43%;
+        left:32%;
+        transform: translate(-50%,-50%);
+    
+    }
+    
+    .text li:nth-child(1){
+        border: 1px solid #36723f;
+        display: inline-block;
+        padding: 12px 22px;
+        font-size: 20px;
+        border-radius: 50px;
+        color: #36723f;
+        font-weight: 500;
+    }
+    
+    
+    .text li:nth-child(2){
+    font-size: 46px;
+    color: #36723f;
+    margin-top: 48px;
+    font-weight: 300;
+    line-height: 57px;
+    }
+    
+    
+    .text span{
+        font-weight:800;
+    }
+    
+    
+    .text li:nth-child(3){
+        font-size: 22px;
+        color: #222222;
+        font-weight: 300;
+        margin-top: 30px;
+        line-height: 29px;
+    }
+    
+    .text li:nth-child(4){
+        font-size: 22px;
+        color: #222222;
+        font-weight: 300;
+        margin-top: 38px;
+        line-height: 29px;
+    }
+    
+    .con-img-wrap{
+        position: absolute;
+        top: 50%;
+        left: 72%;
+        border-radius: 50%;
+      
+    }
+    
+    
+    .con-img{
+        width: 398px;
+        height: 398px;
+        border: 1px red;
+        overflow: hidden;
+        transform: translate(-50%,-50%);
+        border-radius: 18px;}
+        /* con끝 */
+
+        /* 띠배너시작 */
+        .banner4{
+            width: 100%;
+        height: 230px;
+        background: url(../img/띠배너.jpg);
+        }
+        
+        .banner4-wrap{
+        margin: 0 auto;
+        width: 1200px;
+        height: 230px;
+        position: relative;}
+        
+        .banner4-wrap-text{
+            font-family: 'Pretendard-Regular';
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 30%;}
+        
+        .banner4-wrap-text li:nth-child(1){
+            color: #fff;
+            font-weight:600;
+            font-size: 33px;
+            line-height: 50px;
+        }
+        /* 띠배너끝 */
+
+   /* ctr시작 */
+   section{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Pretendard-Regular';
+    margin-top: 140px;
+    }
+
+    .section-left{
+        font-size: 18pt;
+        color: 36723f;
+        padding: 10px 30px;
+        border: 1px solid #36723f;
+        border-radius: 50px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        text-align: center;
+        color: #36723f;
+        display: inline-block;
+
+    }
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.ctr{
+    width: 380px;
+    height: 342px;
+    background-color: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+}
+
+.ctr-img img{
+    width: 380px;
+    height: 234px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+}
+  
+.ctr-txt li{
+    padding: 21px 50px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+}
+/* ctr끝 */    
+
+/* 아이템상단시작 */
+.text-1{
+    font-family: 'Pretendard-Regular';
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.text-1-left{
+    font-size: 24px;
+    color: #36723f;
+    display: inline-block;
+    border: 1px solid #36723f;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.text-1-right a{
+    font-family: 'Pretendard-Regular';
+    font-size: 22px;
+    color: #36723f;
+    display: inline-block;
+    padding: 10px 25px;
+    /* background-color: #36723f; */
+    margin-left: 620px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.text-1-right a::after{
+    content: '';
+    display: block;
+    background-color: #36723f;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transform: all 0.5s;
+}
+
+.text-1-right a:hover::after{
+    width: 60%;
+}
+
+
+/* 상단끝 */
+
+/* 아이템시작  */
+.items{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+
+.item{
+    border-radius: 18px;
+    width: 290px;
+    height: 294px;
+    border: 1px solid #cccccc;
+    position: relative;
+    margin: 10px;
+overflow: hidden;}
+
+.caption{
+    text-align: center;
+    width: 290px;
+    height: 294px;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0,0,0,0.5) ;
+    color: #fff;
+    padding-top: 40px;
+    padding: 0px;
+    opacity: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    padding: 60px;
+}
+
+.caption h2{
+    margin-bottom:  10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.caption-text{
+    font-size: 16px;
+}
+
+.caption-money{
+    font-size: 17px;
+    font-weight: 500;
+}
+.caption a{
+    display: inline-block;
+    color: #fff;
+    background-color: #36723f;
+    padding: 7px 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.item:hover .caption{
+    opacity: 1;
+}
+
+.caption a:hover{
+    background-color: #fff;
+    color: #36723f;
+    font-weight: 600;
+}
+
+/* 아이템끝 */
+
+/* 띠배너시작 */
+.banner3{
+    width: 100%;
+height: 400px;
+background-color: #ac747f;
+margin-top: 140px;
+}
+
+.banner3-wrap{
+margin: 0 auto;
+width: 1200px;
+height: 400px;
+position: relative;}
+
+.banner3-wrap-배너 img{max-width: 100%; width: 1200px; height: 400px; object-fit: cover;
+object-position:20%  }
+
+.banner3-wrap-text{
+    font-family: 'Pretendard-Regular';
+position: absolute;
+text-align: center;
+top: 30%;
+left: 30%;}
+
+.banner3-wrap-text li:nth-child(1){
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+
+.banner3-wrap-text li:nth-child(2){
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    margin-bottom: 40px;}
+
+.banner3-wrap-text a{
+        display: inline-block;
+        font-size: 22px;
+        color: #ffffff;
+        background-color: #36723f;
+        padding: 12px 24px;
+        border-radius: 50px;
+        
+    }
+
+.banner3-wrap-text li a:hover{
+        background-color: #ffffff;
+        color: #36723f;
+    }
+/* 띠배너끝 */
+
+/* 후기시작 */
+.box111{
+    width: 100%;
+    height: 800px;
+}
+
+.box222{
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.review{
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Pretendard-Regular';
+}
+
+.review1{
+    top:140px;
+    position: absolute;
+    font-size: 24px;
+    color: #36723f;
+    border: 1px solid #36723f;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+.review2 a{
+    font-family: 'Pretendard-Regular';
+    color: #36723f;
+    position: absolute;
+    font-size: 22px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    top:140px;
+    left: 1080px;
+}
+
+.review2:hover a{
+    color: #36723f;
+}
+
+.review2 a::after{
+    content: '';
+    display: block;
+    background-color: #36723f;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transform: all 0.5s;
+}
+
+.review2 a:hover::after{
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+
+.yellow-Box{
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-around;
+}
+.yellow-wrap{
+    width: 280px;
+    height: 399px;
+    border: 1px solid #cccccc;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.yellow-wrap-img1{
+    width: inherit;
+    height: 270px;
+    background: url("../img/리뷰4.png") no-repeat center center;
+    background-size: 100%;
+    transition: all 0.3s;
+}
+.yellow-wrap-img2{
+    width: inherit;
+    height: 270px;
+    background: url("../img/리뷰1.png") no-repeat center center;
+    background-size: 100%;
+    transition: all 0.3s;
+}
+
+.yellow-wrap-img3{
+    width: inherit;
+    height: 270px;
+    background: url("../img/리뷰2.png") no-repeat center center;
+    background-size: 100%;
+    transition: all 0.3s;
+}
+
+.yellow-wrap-img4{
+    width: inherit;
+    height: 270px;
+    background: url("../img/리뷰3.png") no-repeat center center;
+    background-size: 100%;
+    transition: all 0.3s;
+}
+
+.yellow-wrap:hover .yellow-wrap-img1{
+    background-size: 110%;
+}
+
+.yellow-wrap:hover .yellow-wrap-img2{
+    background-size: 110%;
+}
+.yellow-wrap:hover .yellow-wrap-img3{
+    background-size: 110%;
+}
+
+.yellow-wrap:hover .yellow-wrap-img4{
+    background-size: 110%;
+}
+
+.yellow-text{
+    background-color: #fff;
+    position: relative;
+    font-family: 'Pretendard-Regular';
+    color: #222222;
+    height: 275px;
+
+}
+.yellow-text img{
+    display: inline-block;
+    position: absolute;
+    top:6%;
+    left: 78%;
+    transform: translate(-50%,-50%);
+    margin: 4px 4px;
+}
+
+
+.yellow-text li:nth-child(2){
+    font-weight: 800;
+    font-size: 18px;
+    display: inline-block;
+    margin: 11px 15px
+    
+}
+
+.yellow-text li:nth-child(3){
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 17px;
+}
+
+.yellow-text li:nth-child(4){
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 176px;
+}
+
+
+/* 푸터시작 */
+.footer{
+    background-color: #36723f;
+    width: 100%;
+    height: 340px;
+
+}
+
+.footer-container{
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+}
+
+.left{
+    position: absolute;
+    top: 27%;
+    left: 2%;
+}
+
+.left img{
+    margin-bottom: 14px;
+    width: 170px;
+}
+
+.left li{
+    line-height: 25px;
+}
+
+.centel{
+    position: absolute;
+    top: 27%;
+    left: 58%;
+    text-align: right;
+}
+
+.centel a{
+    color: #fff;
+}
+
+.centel li{
+    line-height: 25px;
+}
+
+
+.right{
+    text-align: right;
+    position: absolute;
+    top:27%;
+    left: 79%;
+}
+
+.right li{
+    line-height: 25px;
+}
+
+.sns {
+    color: #222222;
+    position: absolute;
+    top:69%;
+    left: 85%;
+    font-size: 27px;
+    letter-spacing: 6px;
+}
+/* 푸터끝 */
