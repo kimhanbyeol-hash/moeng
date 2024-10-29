@@ -1,0 +1,627 @@
+*{margin: 0 ; padding: 0; }
+li{list-style: none;}
+a{color: #FFF ; text-decoration: none;}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 네비게이션 시작 */
+.navbar-brand{
+    width: 140px;
+}
+
+.container-fluid{
+    width: 1200px;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-item:hover a {
+    color: green!important;
+}
+
+.nav-item a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.navbar-toggler{
+    border: 0px;
+  }
+  /* 네비게이션 끝 */
+
+  /* 배너시작 */
+  html,
+  body {
+    position: relative;
+    height: 100%;
+    font-family: 'Pretendard';
+  }
+
+  .swiper {
+    width: 100%;
+    height: 677px;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide:nth-of-type(1){
+    background: url(../img/머어어어엉.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.swiper-slide:nth-of-type(2){
+    background: url(../img/멍멍배배222.png)no-repeat center center;
+    background-size: cover;
+}
+
+.swiper-slide:nth-of-type(3){
+    background: url(../img/멍멍배배33.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+/* 배너1 텍스트 디자인 */
+.swiper-slide-textarea1{
+    position: absolute;
+    left:25%;
+    text-align: left;
+}
+
+.swiper-slide-textarea1 li:nth-child(1){
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 43px;
+    margin-bottom: 7px;
+}
+
+.swiper-slide-textarea1 li:nth-child(2){
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 43px;
+    margin-bottom: 40px;
+}
+
+
+.swiper-slide-textarea1 li:nth-child(3){
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.swiper-slide-textarea1 li:nth-child(4){
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+/* 배너2 텍스트 디자인 */
+.swiper-slide-textarea2{
+    position: absolute;
+    left:18%;
+    text-align: left;
+}
+
+.swiper-slide-textarea2 li:nth-child(1){
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.swiper-slide-textarea2 span{
+    font-size: 50px;
+    font-weight:bold;
+}
+.swiper-slide-textarea2 li:nth-child(2) a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 25px;
+    border: 1px solid #36723f;
+    display: inline-block;
+    padding: 17px 47px;
+    border-radius: 12px;
+    background-color: #36723f;
+}
+
+/* 배너3 텍스트 디자인 */
+.swiper-slide-textarea3{
+    position: absolute;
+    top:28%;
+    left:20%;
+    text-align: left;
+}
+
+.swiper-slide-textarea3 li:nth-child(1){
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.swiper-slide-textarea3 li:nth-child(2){
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.swiper-slide-textarea3 li:nth-child(3){
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.swiper-slide-textarea3 li:nth-child(4){
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+/* 자연에서온 */
+  /* con시작 */
+  .con{
+    width: 100%;
+    height: 650px;
+    background-color:#faf3e7;
+    position: relative;
+}
+
+.con-wrap{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Pretendard-Regular';
+}
+
+.text{
+    position: absolute;
+    top:43%;
+    left:30%;
+    transform: translate(-50%,-50%);
+
+}
+
+.text li:nth-child(1){
+    border: 1px solid #36723f;
+    display: inline-block;
+    padding: 12px 22px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #36723f;
+    font-weight: 500;
+}
+
+
+.text li:nth-child(2){
+font-size: 46px;
+color: #36723f;
+margin-top: 48px;
+font-weight: 300;
+line-height: 57px;
+}
+
+
+.text span{
+    font-weight:800;
+}
+
+
+.text li:nth-child(3){
+    font-size: 22px;
+    color: #222222;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 29px;
+}
+
+.text li:nth-child(4){
+    font-size: 22px;
+    color: #222222;
+    font-weight: 300;
+    margin-top: 38px;
+    line-height: 29px;
+}
+
+.con-img-wrap{
+    position: absolute;
+    top: 47%;
+    left: 75%;
+    border-radius: 50%;
+  
+}
+
+
+.con-img{
+    width: 398px;
+    height: 398px;
+    border: 1px red;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    border-radius: 18px;}
+    /* con끝 */
+/* 자연에서온끝 */
+
+
+  /* 띠배너시작 */
+  .banner4{
+    width: 100%;
+height: 230px;
+background: url(../img/띠배너.jpg)no-repeat center center;
+background-size: cover;
+}
+
+.banner4-wrap{
+margin: 0 auto;
+width: 1200px;
+height: 480px;
+position: relative;}
+
+.banner4-wrap-text{
+    font-family: 'Pretendard-Regular';
+position: absolute;
+text-align: center;
+top: 13%;
+left: 25%;}
+
+.banner4-wrap-text li:nth-child(1){
+    color: #fff;
+    font-weight:500;
+    font-size: 33px;
+    line-height: 50px;
+}
+
+.banner4-wrap-text li span{
+    font-weight:bold;
+}
+/* 띠배너끝 */
+
+
+
+/* ctr시작 */
+section{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Pretendard-Regular';
+    margin-top: 140px;
+    }
+
+    .section-left{
+        font-size: 18px;
+        color: 36723f;
+        padding: 10px 30px;
+        border: 1px solid #36723f;
+        border-radius: 50px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        text-align: center;
+        color: #36723f;
+        display: inline-block;
+
+    }
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.ctr{
+    width: 380px;
+    height: 342px;
+    background-color: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+}
+
+.ctr-img img{
+    width: 380px;
+    height: 234px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+}
+  
+.ctr-txt li{
+    padding: 21px 50px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+}
+/* ctr끝 */    
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .swiper{
+        width: 100%;
+        height: 430px;
+    }
+
+    .swiper-slide:nth-of-type(1){
+        background: url(../img/머어어어엉.jpg)no-repeat -500px center;
+        background-size: cover;}
+        
+
+/* 배너1 텍스트 디자인 */
+.swiper-slide-textarea1{
+    position: absolute;
+    top: 40%;
+    left:8%;
+    text-align: left;
+}
+
+.swiper-slide-textarea1 li:nth-child(1){
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 3px;
+}
+
+.swiper-slide-textarea1 li:nth-child(2){
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+.swiper-slide-textarea1 li:nth-child(3){
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.swiper-slide-textarea1 li:nth-child(4){
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+
+    /* .container{
+        padding: 0;
+    }
+
+    .col h1{
+        font-size: 36px;
+    }
+
+    .col p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .hire-wrap li{
+        margin-bottom: 16px;
+    }
+
+    .hire-wrap li a{
+        display: block;
+        padding: 16px;
+        font-size: 18px;
+    }
+
+    .hire-wrap li span{
+        right: 12px;
+        font-size: 14px;
+    } */
+
+    /* 자연에서온 */
+    .con{
+        width: 100%;
+        height: 960px;
+        background-color:#faf3e7;
+        position: relative;
+    }
+    
+    .con-wrap{
+        position: relative;
+        height: 100%;
+        margin: 0 auto;
+        font-family: 'Pretendard-Regular';
+    }
+    
+    .text{
+        position: absolute;
+        top:24%;
+        left:16%;
+        transform: translate(-50%,-50%);
+    
+    }
+    
+    .text li:nth-child(1){
+        border: 1px solid #36723f;
+        display: inline-block;
+        padding: 7px 20px;
+        font-size: 22px;
+        border-radius: 50px;
+        color: #36723f;
+        font-weight: 500;
+    }
+    
+    
+    .text li:nth-child(2){
+    font-size: 32px;
+    color: #36723f;
+    margin-top: 36px;
+    font-weight: 300;
+    line-height:40px;
+    }
+    
+    
+    .text span{
+        font-weight:800;
+        font-size: 32px;
+    }
+    
+    
+    .text li:nth-child(3){
+        font-size: 18px;
+        color: #222222;
+        font-weight: 300;
+        margin-top: 27px;
+        line-height: 29px;
+    }
+    
+    .text li:nth-child(4){
+        font-size: 18px;
+        color: #222222;
+        font-weight: 300;
+        margin-top: 27px;
+        line-height: 29px;
+    }
+    
+    .con-img-wrap{
+        position: absolute;
+        top: 71%;
+        left: 20%;
+        border-radius: 50%;
+      
+    }
+    
+    
+    .con-img{
+        /* display: none; */
+        width: 90%;
+        height: 450px;
+        overflow: hidden;
+        transform: translate(-50%,-50%);
+        border-radius: 18px;}
+        /* con끝 */
+        /* 자연에서온끝 */
+
+        /* 초록띠배너 */
+        .banner4{
+            width: 100%;
+        height: 170px;
+        background: url(../img/띠배너.jpg)no-repeat center center;
+        background-size: cover;
+        }
+        
+        .banner4-wrap{
+        margin: 0 auto;
+        width: 480px;
+        height: 170px;
+        position: relative;}
+        
+        .banner4-wrap-text{
+            font-family: 'Pretendard-Regular';
+        position: absolute;
+        text-align: center;
+        top: 25%;
+        left: 10%;}
+        
+        .banner4-wrap-text li:nth-child(1){
+            color: #fff;
+            font-weight:500;
+            font-size: 24px;
+            line-height: 40px;
+        }
+        
+        .banner4-wrap-text li span{
+            font-weight:bold;
+        }
+
+
+        /* ctr시작 */
+        section{
+            width: 90%;
+            margin: 0 auto;
+            font-family: 'Pretendard-Regular';
+            margin-top: 140px;
+            }
+        
+            .section-left{
+                font-size: 23px;
+                color: 36723f;
+                padding: 11px 27px;
+                border: 1px solid #36723f;
+                border-radius: 50px;
+                font-weight: 500;
+                margin-bottom: 40px;
+                text-align: center;
+                color: #36723f;
+                display: inline-block;
+                margin-left: 20px;
+        
+            }
+        
+        .wrap{
+            /* display: block; */
+            flex-direction: column;
+        }
+        .ctr{
+            width: 100%;
+            height: 216px;
+            background-color: #fff;
+            border-radius: 18px;
+            overflow: hidden;
+            border: 1px solid #cccccc;
+            margin-bottom: 30px;
+           
+        }
+        
+        .ctr{
+            position: relative;
+        }
+
+
+        .ctr-img img{
+            width: 100%;
+            height: 216px;
+            max-width: 100%;
+            object-fit: cover;
+            object-position: 50%;
+        }
+        
+        .ctr-txt li{
+            padding:0;
+            font-size: 22px;
+            text-align: left;
+            line-height: 28px;
+            color: #FFF;
+                  
+        }
+
+        .ctr-txt{
+            padding: 0;
+            position: absolute;
+            top: 140px;
+            left: 20px;            
+        }
+
+
+}
+

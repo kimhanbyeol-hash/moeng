@@ -1,0 +1,119 @@
+/* 아이템상단시작 */
+.text-1{
+    font-family: 'Pretendard-Regular';
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.text-1-left{
+    font-size: 24px;
+    color: #36723f;
+    display: inline-block;
+    border: 1px solid #36723f;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.text-1-right a{
+    font-family: 'Pretendard-Regular';
+    font-size: 22px;
+    color: #36723f;
+    display: inline-block;
+    padding: 10px 25px;
+    /* background-color: #36723f; */
+    margin-left: 620px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.text-1-right a::after{
+    content: '';
+    display: block;
+    background-color: #36723f;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transform: all 0.5s;
+}
+
+.text-1-right a:hover::after{
+    width: 60%;
+}
+
+
+/* 상단끝 */
+
+/* 아이템시작  */
+.items{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+
+.item{
+    border-radius: 18px;
+    width: 290px;
+    height: 294px;
+    border: 1px solid #cccccc;
+    position: relative;
+    margin: 10px;
+overflow: hidden;}
+
+.caption{
+    text-align: center;
+    width: 290px;
+    height: 294px;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0,0,0,0.5) ;
+    color: #fff;
+    padding-top: 40px;
+    padding: 0px;
+    opacity: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    padding: 60px;
+}
+
+.caption h2{
+    margin-bottom:  10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.caption-text{
+    font-size: 16px;
+}
+
+.caption-money{
+    font-size: 17px;
+    font-weight: 500;
+}
+.caption a{
+    display: inline-block;
+    color: #fff;
+    background-color: #36723f;
+    padding: 7px 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.item:hover .caption{
+    opacity: 1;
+}
+
+.caption a:hover{
+    background-color: #fff;
+    color: #36723f;
+    font-weight: 600;
+}
+
+/* 아이템끝 */
